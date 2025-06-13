@@ -1,0 +1,20 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "A comprehensive web crawler that crawls entire websites and stores data in JSON format",
+  "main": "crawler.js",
+  "private": true,
+  "scripts": {
+    "start": "node crawler.js",
+    "crawl": "node crawler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0",
+    "robots-parser": "^3.0.1"
+  },
+  "keywords": ["web-crawler", "scraper", "json", "website-crawler"],
+  "author": "",
+  "license": "MIT"
+}
